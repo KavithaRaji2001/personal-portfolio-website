@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Images/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31db32809a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+ <div id="header">
+   <div class="container">
+    <nav>
+        <img src="Images/Logo.png"class="Logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="closemenu">
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i></div>
+        </ul>
+        <div class="openmenu">
+        <i class="fa-solid fa-bars"onclick="openmenu()"></i></div>
+    </nav>
+    <div class="header-text">
+        <h3> Hello,I'm </h3>
+        <h1> Arockia Kavitha D </h1>
+        <h3><span>Freelancer</span> &nbsp From India</h3>
+    </div>
+   </div> 
+ </div>   
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Profile About.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="Sub-title">About Me</h1>
+                <br>
+                <p>I am a passionate and dedicated freelancer focused on delivering high-quality work with professionalism, creativity, and attention to detail. I specialize in helping clients grow their businesses through reliable services, clear communication.</p>           
+                <br>
+                <p>With strong problem-solving skills and a commitment to client satisfaction, I always aim to create work that adds real value. I enjoy working on new ideas, learning modern tools and technologies, and building long-term professional relationships with clients worldwide.</p>
+                <br>
+                <p>Whether it’s content creation, digital marketing, website management, affiliate marketing, or online business support, I am committed to providing efficient and result-oriented solutions tailored to client needs.</p>
+                <div class="tab-titles">
+                 <p class="tab-links" onclick ="opentab('education')">Education</p>
+                 <p class="tab-links" onclick ="opentab('experience')">Experience</p>
+                 <p class="tab-links active-link" onclick ="opentab('Current Study')">Current Study</p>
+                </div>
+                <div class="tab-contents active-tab" id="Current Study">
+                    <ul>
+                        <li><span>Canva Master Course</span><br>Udemy</li>
+                        <li><span>Data Entry Skills: A Complete Data Entry Course from Scratch</span><br>Udemy</li>
+                        <li><span>The Complete Full-Stack Web Development Bootcamp</span><br>Udemy</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025 - Current</span><br>Tamil Content Writer</li>
+                        <li><span>2025 - Current</span><br>Selling Digital Product</li>
+                        <li><span>2026 - Current</span><br>Post Motivational Speeches</li>
+                        <li><span>2026 - Current</span><br>Promote Products</li>
+                        <li><span>2026 - Current</span><br>Canva Designs</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>Tally ERP 9 <br>TCDS Computer Education</li>
+                        <li><span>2018 - 2021</span><br>B.SC(Computer Science)<br>Manonmaniam Sundaranar University Constant College Of Women's Art's And Science</li>
+                    <li><span>2022 - 2023</span><br>Full Stack Java Web Development<br>QSpiders - Software Testing Training Institute, Chennai</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <div id="services">
+    <div class="container">
+        <h1 class="Sub-title">Projects</h1>
+        <div class="service-list">
+        <div>
+            <h2>Tamil Content Writer</h2>
+            <p>Experienced Tamil Content Writer creating Beauty & Health Care content through a Blogger website platform. Skilled in publishing SEO-friendly articles on skincare, hair care, wellness, fitness, home remedies, and healthy lifestyle tips in simple and engaging Tamil language. Focused on delivering informative and reader-friendly content to attract and engage online audiences.
+</p>
+            <a href="https://www.bhbosstamil.in/">BH Boss Tamil</a>
+        </div>
+        <div>
+            <h2>Selling Digital Products</h2>
+            <p>Digital Product Seller using Gumroad to market and sell downloadable products online. Experienced in selling digital products such as eBooks, templates, guides, design resources, and online content with a focus on easy customer access, secure delivery.</p>
+            <a href="https://digitallivetemplate.gumroad.com/">Digital Live Template</a>
+        </div>
+        <div>
+            <h2>Post Motivational Speeches</h2>
+            <p>Motivational Content Creator using [YouTube]to share inspiring speeches, positive mindset content, success tips, and personal growth videos. Focused on creating engaging and uplifting content that motivates audiences, builds confidence, and encourages self-improvement.
+            </p>
+            <a href="www.youtube.com/@GoldSpeechTv">Gold Speech TV</a>
+        </div>
+ </div>
+ <div class="service-list">
+    <div>
+        <h2>Promote Products</h2>
+        <p>Amazon Affiliate Marketer promoting products through the [Amazon Associates Program]. Experienced in sharing product recommendations, deals, and through blogs, social media, and online platforms to help customers discover useful products while earning affiliate commissions through successful referrals.
+</p>
+        <a href="https://www.livetemplate.shop/">Trendy Online</a>
+    </div>
+    <div>
+        <h2>Canva Design</h2>
+        <p>Creative graphic designer using [Canva] to create designs for typography, photo manipulation, posters, and logos. Skilled in producing engaging visual content with modern layouts, attractive typography, and creative elements.
+</p>
+        <a href="https://drive.google.com/drive/folders/1Kl4Ekf_4_ZfkizvvKamuMLgZC4k45I4i?usp=sharing">Creative Designs</a>
+    </div>
+</div>
+</div>
+</div>
+</div>
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="Sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-square-envelope"></i>arockiakavitha2001@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6382926703</p>
+                <br>
+                <br>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61583059791844"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/arockia-kavitha-d-385632229"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/arockia_kavitha_2001/"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <a href="Images/Resume - Freelancer.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">  
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="10" placeholder="Your Message"></textarea>
+                    <button type="submit"name="Submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+     </div>
+    </div>
+ </div>
+</div>
+  <div class="copyright">
+    <p>Copyright &copy; 2026 Arockia Kavitha <i class="fa-solid fa-heart"></i> All rights reserved.</p>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(education){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(education).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+function closemenu() {
+        sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx8X4nZpBDuCpALLgqAWZYbtEpuWH98SRytfkT1EHJmIhM8RyKJMTrPS_Sd7mz2rRCp/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function() {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
